@@ -44,7 +44,7 @@ public class CarController {
 		return ResponseEntity.status(HttpStatus.CREATED).body(savedCar);
 	}
 	
-	@PutMapping("/{immatriculation")
+	@PutMapping("/{immatriculation}")
 	public ResponseEntity<Car> updateCarEtat(
 			@PathVariable String immatriculation,
 			@RequestBody Map<String, String> requestBody) {
