@@ -1,4 +1,4 @@
-package com.garage.garage_api.service;
+package com.garage.garage_api.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
